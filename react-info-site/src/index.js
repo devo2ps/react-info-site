@@ -46,7 +46,14 @@ function Navbar() {
     )
 }
 
+function Extra() {
+    return (
+        <h1>Quick addition</h1>
+    ) }
+
 ReactDOM.render(
-        <Navbar />,
+<div>
+        <Navbar />
+        <Extra /> </div>,
     document.getElementById("root")
 )
