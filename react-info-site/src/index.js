@@ -51,6 +51,8 @@ function Extra() {
         <h1>Quick addition</h1>
     ) }
 
+//just researched more about js/react syntax today july 6
+
 ReactDOM.render(
 <div>
         <Navbar />
