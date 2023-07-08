@@ -6,6 +6,23 @@ import React from 'react'
 //ReactDOM.render(<ul><li>Thing 1</li><li>Thing 2</li></ul>, document.getElementById("root"))
 // July 4 progress
 
+
+
+const navbar = (
+    <nav>
+        <h1>Bob's Bistro</h1>
+        <ul>
+            <li>Menu</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+)
+
+ReactDOM.render(navbar, document.getElementById("root"))
+
+
+/* Made obsolete on July 7
 function Navbar() {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -58,4 +75,4 @@ ReactDOM.render(
         <Navbar />
         <Extra /> </div>,
     document.getElementById("root")
-)
+) */
