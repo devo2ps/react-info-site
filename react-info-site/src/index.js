@@ -1,6 +1,6 @@
 // Spend a minute memorizing the line below
 // Re-write the line of code as best you can from memory
-import ReactDOM from 'react-dom'
+import ReactDOM from 'react-dom/client'
 import React from 'react'
 // ReactDOM.render(<p>Hi, my name is Bob!</p>, document.getElementById("root")
 //ReactDOM.render(<ul><li>Thing 1</li><li>Thing 2</li></ul>, document.getElementById("root"))
@@ -19,7 +19,12 @@ const navbar = (
     </nav>
 )
 
-ReactDOM.render(navbar, document.getElementById("root"))
+//equivalent to the two lines below, july 8. React 18 changed some things I guess
+//ReactDOM.createRoot(document.getElementById("root")).render(navbar)
+
+
+const root = ReactDOM.createRoot(document.getElementById("root"))
+root.render(navbar)
 
 
 /* Made obsolete on July 7
