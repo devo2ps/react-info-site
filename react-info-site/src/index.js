@@ -7,6 +7,25 @@ import React from 'react'
 // July 4 progress
 
 
+//formal beginnings of info page july 8
+const page = (
+    <div>
+        <img src="./react-logo.png" width="40px" />
+        <h1>Fun facts about React</h1>
+        <ul>
+            <li>Was first released in 2013</li>
+            <li>Was originally created by Jordan Walke</li>
+            <li>Has well over 100K stars on GitHub</li>
+            <li>Is maintained by Facebook</li>
+            <li>Powers thousands of enterprise apps, including mobile apps</li>
+        </ul>
+    </div>
+)
+
+ReactDOM.render(page, document.getElementById("root"))
+
+
+/* made obsolete on july 8
 
 const navbar = (
     <nav>
@@ -19,6 +38,7 @@ const navbar = (
     </nav>
 )
 
+*/
 //equivalent to the two lines below, july 8. React 18 changed some things I guess
 //ReactDOM.createRoot(document.getElementById("root")).render(navbar)
 
