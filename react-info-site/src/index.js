@@ -25,6 +25,10 @@ const page = (
 ReactDOM.render(page, document.getElementById("root"))
 
 
+//just read about the history of react and facebooks continued role in its development 10 years ago. July 10 
+
+
+
 /* made obsolete on july 8
 
 const navbar = (
