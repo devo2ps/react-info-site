@@ -1,16 +1,18 @@
-// Spend a minute memorizing the line below
-// Re-write the line of code as best you can from memory
-import ReactDOM from 'react-dom/client'
+
+import ReactDOM from 'react-dom'
 import React from 'react'
 // ReactDOM.render(<p>Hi, my name is Bob!</p>, document.getElementById("root")
 //ReactDOM.render(<ul><li>Thing 1</li><li>Thing 2</li></ul>, document.getElementById("root"))
 // July 4 progress
 
 
+
+
+
 //formal beginnings of info page july 8
 const page = (
     <div>
-        <img src="./react-logo.png" width="40px" />
+        <img src="/logo.svg" width="40px" />
         <h1>Fun facts about React</h1>
         <ul>
             <li>Was first released in 2013</li>
@@ -47,8 +49,8 @@ const navbar = (
 //ReactDOM.createRoot(document.getElementById("root")).render(navbar)
 
 
-const root = ReactDOM.createRoot(document.getElementById("root"))
-root.render(navbar)
+//const root = ReactDOM.createRoot(document.getElementById("root"))
+//root.render(navbar)
 
 
 /* Made obsolete on July 7
